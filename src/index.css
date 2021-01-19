@@ -123,3 +123,16 @@ button{
   background-color: #ffc040;
   cursor: pointer;
 }
+
+/* filter */
+.filter{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: solid 1px #c0c0c0;
+}
+
+.filter div{
+  flex: 1;
+}
