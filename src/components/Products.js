@@ -61,8 +61,7 @@ export default class Products extends Component {
                   <p>{product.title}</p>
                   <p>{product.description}</p>
                   <p>
-                    Available Sizes:
-                    
+                    Available Sizes: 
                     {product.availableSizes.map((x) => (
                       <span key={x}>
                         <button className="button">{x}</button>
